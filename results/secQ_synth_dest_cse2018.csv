@@ -1,0 +1,7 @@
+Category,n_synth,synthetic intrusion (%),to BENIGN (%),top non-BENIGN
+Botnet,4000,0.0,,
+DDoS,4000,6.15,56.09756097560976,DoS
+DoS,4000,14.05,18.327402135231317,Brute Force
+Web Attack,4000,15.775,58.32012678288431,Infiltration
+Brute Force,4000,11.55,0.0,DoS
+Infiltration,4000,89.275,99.66395967516102,Web Attack

@@ -1,0 +1,121 @@
+seed,fold,category,model,method,n_train,tp,fp,fn,fn_dest,fit_seconds
+42,0,Botnet,rf,base,29,5341,0,659,"{""Infiltration"": 525, ""BENIGN"": 134}",51.3
+42,0,Botnet,xgb,base,29,5691,0,309,"{""BENIGN"": 158, ""Infiltration"": 151}",67.2
+42,0,Botnet,rf,smote,29,5387,0,613,"{""Infiltration"": 424, ""BENIGN"": 189}",42.8
+42,0,Botnet,xgb,smote,29,5984,0,16,"{""BENIGN"": 13, ""Infiltration"": 3}",93.0
+42,0,DDoS,rf,base,29,4399,0,1601,"{""BENIGN"": 1104, ""Web Attack"": 378, ""Infiltration"": 119}",30.0
+42,0,DDoS,xgb,base,29,5154,0,846,"{""BENIGN"": 678, ""Web Attack"": 149, ""Infiltration"": 19}",65.4
+42,0,DDoS,rf,smote,29,5581,1,419,"{""BENIGN"": 336, ""Web Attack"": 49, ""DoS"": 24, ""Infiltration"": 10}",49.1
+42,0,DDoS,xgb,smote,29,5800,1,200,"{""BENIGN"": 189, ""Infiltration"": 9, ""Web Attack"": 2}",106.3
+42,0,DoS,rf,base,29,3977,1,2023,"{""Brute Force"": 1234, ""BENIGN"": 614, ""Infiltration"": 108, ""DDoS"": 64, ""Web Attack"": 3}",31.9
+42,0,DoS,xgb,base,29,4247,0,1753,"{""Brute Force"": 1234, ""BENIGN"": 420, ""Web Attack"": 99}",60.6
+42,0,DoS,rf,smote,29,4609,171,1391,"{""Brute Force"": 846, ""BENIGN"": 473, ""DDoS"": 67, ""Web Attack"": 3, ""Infiltration"": 2}",40.5
+42,0,DoS,xgb,smote,29,4714,170,1286,"{""Brute Force"": 839, ""BENIGN"": 363, ""Web Attack"": 84}",86.4
+42,0,Web Attack,rf,base,29,101,1,85,"{""BENIGN"": 57, ""Infiltration"": 21, ""DDoS"": 7}",31.7
+42,0,Web Attack,xgb,base,29,158,1,28,"{""BENIGN"": 17, ""Infiltration"": 9, ""DDoS"": 2}",73.7
+42,0,Web Attack,rf,smote,29,159,2,27,"{""BENIGN"": 18, ""Infiltration"": 6, ""DDoS"": 3}",41.2
+42,0,Web Attack,xgb,smote,29,172,2,14,"{""BENIGN"": 9, ""Infiltration"": 4, ""DDoS"": 1}",91.2
+42,0,Brute Force,rf,base,29,2932,0,3068,"{""DoS"": 3068}",32.0
+42,0,Brute Force,xgb,base,29,2893,0,3107,"{""DoS"": 3066, ""Infiltration"": 41}",63.7
+42,0,Brute Force,rf,smote,29,5369,573,631,"{""DoS"": 626, ""Infiltration"": 5}",39.4
+42,0,Brute Force,xgb,smote,29,5373,573,627,"{""DoS"": 626, ""Infiltration"": 1}",91.1
+42,0,Infiltration,rf,base,29,65,3,5885,"{""BENIGN"": 5881, ""DDoS"": 2, ""Botnet"": 1, ""DoS"": 1}",19.7
+42,0,Infiltration,xgb,base,29,29,2,5921,"{""BENIGN"": 5907, ""Brute Force"": 12, ""Web Attack"": 2}",65.4
+42,0,Infiltration,rf,smote,29,279,18,5671,"{""BENIGN"": 5667, ""DDoS"": 2, ""Web Attack"": 2}",39.8
+42,0,Infiltration,xgb,smote,29,274,21,5676,"{""BENIGN"": 5661, ""Brute Force"": 9, ""Web Attack"": 6}",98.4
+42,1,Botnet,rf,base,29,5042,1,958,"{""Infiltration"": 902, ""BENIGN"": 56}",30.3
+42,1,Botnet,xgb,base,29,5630,0,370,"{""BENIGN"": 221, ""Infiltration"": 149}",64.6
+42,1,Botnet,rf,smote,29,5221,0,779,"{""Infiltration"": 552, ""BENIGN"": 227}",42.7
+42,1,Botnet,xgb,smote,29,5980,0,20,"{""BENIGN"": 17, ""Infiltration"": 3}",93.3
+42,1,DDoS,rf,base,29,4546,1,1454,"{""BENIGN"": 645, ""Web Attack"": 525, ""Infiltration"": 284}",27.0
+42,1,DDoS,xgb,base,29,4878,0,1122,"{""BENIGN"": 951, ""Web Attack"": 151, ""Infiltration"": 20}",62.6
+42,1,DDoS,rf,smote,29,4949,0,1051,"{""Web Attack"": 754, ""BENIGN"": 215, ""Infiltration"": 82}",40.9
+42,1,DDoS,xgb,smote,29,5748,0,252,"{""BENIGN"": 128, ""Web Attack"": 123, ""Infiltration"": 1}",86.8
+42,1,DoS,rf,base,29,4006,0,1994,"{""Brute Force"": 1324, ""BENIGN"": 482, ""Infiltration"": 103, ""DDoS"": 59, ""Web Attack"": 26}",29.0
+42,1,DoS,xgb,base,29,4373,0,1627,"{""Brute Force"": 1320, ""BENIGN"": 196, ""Web Attack"": 70, ""DDoS"": 41}",58.0
+42,1,DoS,rf,smote,29,4299,0,1701,"{""Brute Force"": 1323, ""BENIGN"": 254, ""Infiltration"": 116, ""Web Attack"": 8}",40.6
+42,1,DoS,xgb,smote,29,4660,1,1340,"{""Brute Force"": 1320, ""BENIGN"": 16, ""Web Attack"": 4}",88.8
+42,1,Web Attack,rf,base,29,104,1,82,"{""BENIGN"": 57, ""Infiltration"": 19, ""DDoS"": 6}",31.3
+42,1,Web Attack,xgb,base,29,124,0,62,"{""BENIGN"": 48, ""Infiltration"": 14}",73.8
+42,1,Web Attack,rf,smote,29,146,0,40,"{""BENIGN"": 23, ""Infiltration"": 11, ""DDoS"": 6}",40.2
+42,1,Web Attack,xgb,smote,29,152,0,34,"{""BENIGN"": 25, ""Infiltration"": 8, ""DDoS"": 1}",89.8
+42,1,Brute Force,rf,base,29,2926,0,3074,"{""DoS"": 3074}",29.0
+42,1,Brute Force,xgb,base,29,2902,0,3098,"{""DoS"": 3072, ""Infiltration"": 26}",59.4
+42,1,Brute Force,rf,smote,29,5332,594,668,"{""DoS"": 668}",41.1
+42,1,Brute Force,xgb,smote,29,5428,635,572,"{""DoS"": 572}",90.7
+42,1,Infiltration,rf,base,29,21,1,5929,"{""BENIGN"": 5917, ""Botnet"": 5, ""DDoS"": 2, ""Web Attack"": 2, ""DoS"": 2, ""Brute Force"": 1}",20.2
+42,1,Infiltration,xgb,base,29,9,0,5941,"{""BENIGN"": 5930, ""Brute Force"": 8, ""DoS"": 3}",60.0
+42,1,Infiltration,rf,smote,29,92,12,5858,"{""BENIGN"": 5842, ""Web Attack"": 5, ""DoS"": 4, ""DDoS"": 3, ""Botnet"": 3, ""Brute Force"": 1}",40.8
+42,1,Infiltration,xgb,smote,29,92,18,5858,"{""BENIGN"": 5849, ""DoS"": 4, ""Web Attack"": 2, ""Brute Force"": 2, ""Botnet"": 1}",92.6
+42,2,Botnet,rf,base,29,5492,1,508,"{""Infiltration"": 261, ""BENIGN"": 247}",28.4
+42,2,Botnet,xgb,base,29,5635,0,365,"{""Infiltration"": 239, ""BENIGN"": 126}",62.8
+42,2,Botnet,rf,smote,29,5428,1,572,"{""BENIGN"": 329, ""Infiltration"": 243}",39.2
+42,2,Botnet,xgb,smote,29,5896,0,104,"{""BENIGN"": 98, ""Infiltration"": 6}",89.4
+42,2,DDoS,rf,base,29,5043,0,957,"{""BENIGN"": 677, ""Web Attack"": 181, ""Infiltration"": 99}",25.7
+42,2,DDoS,xgb,base,29,5729,0,271,"{""BENIGN"": 252, ""Web Attack"": 19}",61.9
+42,2,DDoS,rf,smote,29,5670,0,330,"{""BENIGN"": 234, ""Web Attack"": 65, ""Infiltration"": 31}",40.9
+42,2,DDoS,xgb,smote,29,5900,0,100,"{""BENIGN"": 79, ""Web Attack"": 11, ""Infiltration"": 10}",92.1
+42,2,DoS,rf,base,29,3782,0,2218,"{""Brute Force"": 1239, ""BENIGN"": 681, ""Infiltration"": 170, ""DDoS"": 124, ""Web Attack"": 4}",30.3
+42,2,DoS,xgb,base,29,4131,1,1869,"{""Brute Force"": 1231, ""BENIGN"": 437, ""Web Attack"": 87, ""DDoS"": 59, ""Infiltration"": 55}",57.5
+42,2,DoS,rf,smote,29,4589,183,1411,"{""Brute Force"": 822, ""BENIGN"": 469, ""Infiltration"": 104, ""Web Attack"": 14, ""DDoS"": 2}",39.2
+42,2,DoS,xgb,smote,29,4834,185,1166,"{""Brute Force"": 809, ""BENIGN"": 252, ""Web Attack"": 56, ""Infiltration"": 49}",97.9
+42,2,Web Attack,rf,base,29,94,1,92,"{""BENIGN"": 64, ""Infiltration"": 20, ""DDoS"": 7, ""Brute Force"": 1}",33.2
+42,2,Web Attack,xgb,base,29,139,0,47,"{""BENIGN"": 30, ""Infiltration"": 15, ""DDoS"": 1, ""Brute Force"": 1}",72.8
+42,2,Web Attack,rf,smote,29,143,3,43,"{""BENIGN"": 20, ""Infiltration"": 18, ""DDoS"": 5}",42.3
+42,2,Web Attack,xgb,smote,29,141,2,45,"{""BENIGN"": 38, ""Infiltration"": 6, ""Brute Force"": 1}",92.4
+42,2,Brute Force,rf,base,29,2967,0,3033,"{""DoS"": 3031, ""BENIGN"": 2}",30.7
+42,2,Brute Force,xgb,base,29,2961,0,3039,"{""DoS"": 3028, ""Infiltration"": 11}",57.9
+42,2,Brute Force,rf,smote,29,5360,561,640,"{""DoS"": 610, ""BENIGN"": 18, ""Infiltration"": 12}",40.3
+42,2,Brute Force,xgb,smote,29,5394,562,606,"{""DoS"": 606}",83.4
+42,2,Infiltration,rf,base,29,53,1,5896,"{""BENIGN"": 5865, ""Web Attack"": 22, ""Botnet"": 5, ""DDoS"": 2, ""Brute Force"": 2}",20.7
+42,2,Infiltration,xgb,base,29,65,1,5884,"{""BENIGN"": 5835, ""Botnet"": 35, ""Brute Force"": 11, ""Web Attack"": 2, ""DoS"": 1}",59.3
+42,2,Infiltration,rf,smote,29,471,11,5478,"{""BENIGN"": 5466, ""Web Attack"": 5, ""DDoS"": 3, ""Brute Force"": 2, ""Botnet"": 2}",39.7
+42,2,Infiltration,xgb,smote,29,500,15,5449,"{""BENIGN"": 5439, ""Brute Force"": 7, ""Web Attack"": 2, ""Botnet"": 1}",85.5
+42,3,Botnet,rf,base,29,5555,0,445,"{""Infiltration"": 252, ""BENIGN"": 193}",28.8
+42,3,Botnet,xgb,base,29,5832,0,168,"{""BENIGN"": 98, ""Infiltration"": 70}",66.2
+42,3,Botnet,rf,smote,29,5782,0,218,"{""BENIGN"": 165, ""Infiltration"": 53}",41.0
+42,3,Botnet,xgb,smote,29,5903,0,97,"{""BENIGN"": 94, ""Infiltration"": 3}",83.4
+42,3,DDoS,rf,base,29,4904,2,1096,"{""BENIGN"": 724, ""Web Attack"": 215, ""Infiltration"": 157}",27.5
+42,3,DDoS,xgb,base,29,5524,3,476,"{""BENIGN"": 431, ""Web Attack"": 45}",66.2
+42,3,DDoS,rf,smote,29,5814,5,186,"{""BENIGN"": 82, ""Web Attack"": 73, ""Infiltration"": 31}",41.7
+42,3,DDoS,xgb,smote,29,5865,5,135,"{""BENIGN"": 114, ""Infiltration"": 18, ""Web Attack"": 3}",89.4
+42,3,DoS,rf,base,29,3760,0,2240,"{""Brute Force"": 1270, ""BENIGN"": 668, ""Infiltration"": 182, ""DDoS"": 113, ""Web Attack"": 7}",28.0
+42,3,DoS,xgb,base,29,4135,0,1865,"{""Brute Force"": 1266, ""BENIGN"": 414, ""Infiltration"": 69, ""DDoS"": 66, ""Web Attack"": 50}",62.3
+42,3,DoS,rf,smote,29,4163,0,1837,"{""Brute Force"": 1271, ""BENIGN"": 441, ""Infiltration"": 113, ""Web Attack"": 12}",39.8
+42,3,DoS,xgb,smote,29,4189,1,1811,"{""Brute Force"": 1266, ""BENIGN"": 340, ""Infiltration"": 91, ""DDoS"": 58, ""Web Attack"": 56}",86.6
+42,3,Web Attack,rf,base,29,98,1,87,"{""BENIGN"": 53, ""Infiltration"": 25, ""DDoS"": 9}",32.7
+42,3,Web Attack,xgb,base,29,136,1,49,"{""BENIGN"": 39, ""Infiltration"": 9, ""DDoS"": 1}",71.7
+42,3,Web Attack,rf,smote,29,127,1,58,"{""BENIGN"": 35, ""Infiltration"": 19, ""DDoS"": 4}",42.5
+42,3,Web Attack,xgb,smote,29,165,2,20,"{""BENIGN"": 16, ""Infiltration"": 3, ""DDoS"": 1}",88.8
+42,3,Brute Force,rf,base,29,2956,0,3044,"{""DoS"": 3043, ""BENIGN"": 1}",29.6
+42,3,Brute Force,xgb,base,29,2959,0,3041,"{""DoS"": 3038, ""BENIGN"": 3}",63.8
+42,3,Brute Force,rf,smote,29,5287,592,713,"{""DoS"": 680, ""Infiltration"": 32, ""BENIGN"": 1}",40.5
+42,3,Brute Force,xgb,smote,29,5345,597,655,"{""DoS"": 654, ""BENIGN"": 1}",92.3
+42,3,Infiltration,rf,base,29,51,3,5899,"{""BENIGN"": 5893, ""DoS"": 3, ""Web Attack"": 2, ""DDoS"": 1}",18.6
+42,3,Infiltration,xgb,base,29,38,2,5912,"{""BENIGN"": 5892, ""Brute Force"": 11, ""Web Attack"": 9}",67.0
+42,3,Infiltration,rf,smote,29,262,26,5688,"{""BENIGN"": 5684, ""Web Attack"": 3, ""DoS"": 1}",36.0
+42,3,Infiltration,xgb,smote,29,344,34,5606,"{""BENIGN"": 5588, ""Brute Force"": 11, ""Web Attack"": 5, ""DDoS"": 1, ""Botnet"": 1}",92.2
+42,4,Botnet,rf,base,29,5723,0,277,"{""Infiltration"": 187, ""BENIGN"": 90}",30.8
+42,4,Botnet,xgb,base,29,5692,0,308,"{""Infiltration"": 184, ""BENIGN"": 124}",65.7
+42,4,Botnet,rf,smote,29,5805,0,195,"{""Infiltration"": 115, ""BENIGN"": 80}",42.5
+42,4,Botnet,xgb,smote,29,5996,0,4,"{""BENIGN"": 3, ""Infiltration"": 1}",83.9
+42,4,DDoS,rf,base,29,5123,0,877,"{""BENIGN"": 634, ""Web Attack"": 137, ""Infiltration"": 106}",29.0
+42,4,DDoS,xgb,base,29,5519,0,481,"{""BENIGN"": 470, ""Web Attack"": 11}",61.6
+42,4,DDoS,rf,smote,29,5524,1,476,"{""BENIGN"": 237, ""Web Attack"": 209, ""Infiltration"": 30}",41.4
+42,4,DDoS,xgb,smote,29,5810,0,190,"{""BENIGN"": 188, ""Web Attack"": 2}",85.6
+42,4,DoS,rf,base,29,3998,1,2002,"{""Brute Force"": 1289, ""BENIGN"": 528, ""Infiltration"": 117, ""DDoS"": 66, ""Web Attack"": 2}",29.2
+42,4,DoS,xgb,base,29,4187,0,1813,"{""Brute Force"": 1281, ""BENIGN"": 371, ""DDoS"": 130, ""Infiltration"": 17, ""Web Attack"": 14}",56.9
+42,4,DoS,rf,smote,29,4211,1,1789,"{""Brute Force"": 1290, ""BENIGN"": 364, ""Infiltration"": 130, ""DDoS"": 3, ""Web Attack"": 2}",41.4
+42,4,DoS,xgb,smote,29,4448,0,1552,"{""Brute Force"": 1281, ""BENIGN"": 192, ""DDoS"": 51, ""Infiltration"": 17, ""Web Attack"": 11}",91.1
+42,4,Web Attack,rf,base,29,119,2,66,"{""BENIGN"": 39, ""Infiltration"": 22, ""DDoS"": 5}",31.9
+42,4,Web Attack,xgb,base,29,114,0,71,"{""BENIGN"": 57, ""Infiltration"": 14}",73.7
+42,4,Web Attack,rf,smote,29,141,6,44,"{""BENIGN"": 28, ""Infiltration"": 13, ""DDoS"": 3}",42.4
+42,4,Web Attack,xgb,smote,29,165,3,20,"{""BENIGN"": 13, ""Infiltration"": 6, ""DDoS"": 1}",98.6
+42,4,Brute Force,rf,base,29,2921,0,3079,"{""DoS"": 3079}",30.7
+42,4,Brute Force,xgb,base,29,2918,0,3082,"{""DoS"": 3075, ""BENIGN"": 3, ""Web Attack"": 2, ""Infiltration"": 2}",58.8
+42,4,Brute Force,rf,smote,29,5316,572,684,"{""DoS"": 684}",40.9
+42,4,Brute Force,xgb,smote,29,5317,572,683,"{""DoS"": 682, ""Infiltration"": 1}",86.0
+42,4,Infiltration,rf,base,29,47,2,5903,"{""BENIGN"": 5893, ""Web Attack"": 5, ""DoS"": 3, ""Botnet"": 1, ""DDoS"": 1}",19.1
+42,4,Infiltration,xgb,base,29,13,2,5937,"{""BENIGN"": 5925, ""Brute Force"": 8, ""Web Attack"": 4}",59.7
+42,4,Infiltration,rf,smote,29,279,13,5671,"{""BENIGN"": 5659, ""Web Attack"": 6, ""DoS"": 3, ""Botnet"": 2, ""DDoS"": 1}",40.8
+42,4,Infiltration,xgb,smote,29,338,14,5612,"{""BENIGN"": 5602, ""Brute Force"": 7, ""Web Attack"": 3}",84.3

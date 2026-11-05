@@ -1,0 +1,271 @@
+seed,fold,category,method,n_train,tp,fp,fn,fn_dest
+42,0,Botnet,base,29,194,1,196,
+42,0,Botnet,smote,29,295,4,95,
+42,0,PortScan,base,29,5103,2,897,
+42,0,PortScan,smote,29,5571,2,429,
+42,0,Web Attack,base,29,358,0,71,
+42,0,Web Attack,smote,29,368,0,61,
+42,0,Infiltration,base,29,4,0,3,
+42,0,Infiltration,smote,29,4,0,3,
+42,1,Botnet,base,29,179,1,211,
+42,1,Botnet,smote,29,309,1,81,
+42,1,PortScan,base,29,4746,1,1254,
+42,1,PortScan,smote,29,5402,3,598,
+42,1,Web Attack,base,29,366,0,63,
+42,1,Web Attack,smote,29,345,0,84,
+42,1,Infiltration,base,29,6,0,1,
+42,1,Infiltration,smote,29,6,0,1,
+42,2,Botnet,base,29,156,0,234,
+42,2,Botnet,smote,29,225,0,165,
+42,2,PortScan,base,29,4917,1,1083,
+42,2,PortScan,smote,29,5408,2,592,
+42,2,Web Attack,base,29,360,1,68,
+42,2,Web Attack,smote,29,363,1,65,
+42,2,Infiltration,base,29,6,0,1,
+42,2,Infiltration,smote,29,6,0,1,
+42,3,Botnet,base,29,202,1,187,
+42,3,Botnet,smote,29,305,6,84,
+42,3,PortScan,base,29,5105,2,895,
+42,3,PortScan,smote,29,5505,3,495,
+42,3,Web Attack,base,29,366,0,62,
+42,3,Web Attack,smote,29,346,0,82,
+42,3,Infiltration,base,28,6,0,2,
+42,3,Infiltration,smote,28,8,0,0,
+42,4,Botnet,base,29,162,1,227,
+42,4,Botnet,smote,29,202,1,187,
+42,4,PortScan,base,29,4419,1,1581,
+42,4,PortScan,smote,29,5549,2,451,
+42,4,Web Attack,base,29,367,0,62,
+42,4,Web Attack,smote,29,400,2,29,
+42,4,Infiltration,base,29,4,0,3,
+42,4,Infiltration,smote,29,5,0,2,
+43,0,Botnet,base,29,167,2,223,
+43,0,Botnet,smote,29,258,6,132,
+43,0,PortScan,base,29,5047,1,953,
+43,0,PortScan,smote,29,5300,2,700,
+43,0,Web Attack,base,29,377,0,52,
+43,0,Web Attack,smote,29,384,1,45,
+43,0,Infiltration,base,29,6,0,1,
+43,0,Infiltration,smote,29,6,0,1,
+43,1,Botnet,base,29,172,0,218,
+43,1,Botnet,smote,29,274,0,116,
+43,1,PortScan,base,29,4563,1,1437,
+43,1,PortScan,smote,29,5489,4,511,
+43,1,Web Attack,base,29,358,0,71,
+43,1,Web Attack,smote,29,343,0,86,
+43,1,Infiltration,base,29,3,0,4,
+43,1,Infiltration,smote,29,4,0,3,
+43,2,Botnet,base,29,153,0,237,
+43,2,Botnet,smote,29,244,9,146,
+43,2,PortScan,base,29,5015,2,985,
+43,2,PortScan,smote,29,5257,2,743,
+43,2,Web Attack,base,29,386,0,42,
+43,2,Web Attack,smote,29,391,2,37,
+43,2,Infiltration,base,29,5,0,2,
+43,2,Infiltration,smote,29,5,0,2,
+43,3,Botnet,base,29,201,1,188,
+43,3,Botnet,smote,29,305,1,84,
+43,3,PortScan,base,29,4823,1,1177,
+43,3,PortScan,smote,29,5543,1,457,
+43,3,Web Attack,base,29,354,0,74,
+43,3,Web Attack,smote,29,356,0,72,
+43,3,Infiltration,base,28,6,0,2,
+43,3,Infiltration,smote,28,7,0,1,
+43,4,Botnet,base,29,181,2,208,
+43,4,Botnet,smote,29,272,3,117,
+43,4,PortScan,base,29,4765,2,1235,
+43,4,PortScan,smote,29,5653,3,347,
+43,4,Web Attack,base,29,386,0,43,
+43,4,Web Attack,smote,29,370,0,59,
+43,4,Infiltration,base,29,6,0,1,
+43,4,Infiltration,smote,29,7,0,0,
+44,0,Botnet,base,29,164,0,226,
+44,0,Botnet,smote,29,247,4,143,
+44,0,PortScan,base,29,4550,0,1450,
+44,0,PortScan,smote,29,5404,0,596,
+44,0,Web Attack,base,29,362,0,67,
+44,0,Web Attack,smote,29,345,0,84,
+44,0,Infiltration,base,29,5,0,2,
+44,0,Infiltration,smote,29,5,0,2,
+44,1,Botnet,base,29,167,1,223,
+44,1,Botnet,smote,29,299,2,91,
+44,1,PortScan,base,29,5493,6,507,
+44,1,PortScan,smote,29,5611,7,389,
+44,1,Web Attack,base,29,378,0,51,
+44,1,Web Attack,smote,29,386,0,43,
+44,1,Infiltration,base,29,6,0,1,
+44,1,Infiltration,smote,29,6,0,1,
+44,2,Botnet,base,29,176,0,214,
+44,2,Botnet,smote,29,277,3,113,
+44,2,PortScan,base,29,4745,2,1255,
+44,2,PortScan,smote,29,5555,3,445,
+44,2,Web Attack,base,29,392,0,36,
+44,2,Web Attack,smote,29,386,0,42,
+44,2,Infiltration,base,29,3,0,4,
+44,2,Infiltration,smote,29,4,0,3,
+44,3,Botnet,base,29,182,1,207,
+44,3,Botnet,smote,29,264,3,125,
+44,3,PortScan,base,29,4179,0,1821,
+44,3,PortScan,smote,29,5041,1,959,
+44,3,Web Attack,base,29,350,0,78,
+44,3,Web Attack,smote,29,316,0,112,
+44,3,Infiltration,base,28,7,0,1,
+44,3,Infiltration,smote,28,7,0,1,
+44,4,Botnet,base,29,153,2,236,
+44,4,Botnet,smote,29,304,4,85,
+44,4,PortScan,base,29,4417,1,1583,
+44,4,PortScan,smote,29,5559,2,441,
+44,4,Web Attack,base,29,384,0,45,
+44,4,Web Attack,smote,29,387,0,42,
+44,4,Infiltration,base,29,5,1,2,
+44,4,Infiltration,smote,29,6,0,1,
+42,0,Botnet,ros,29,232,1,158,"{""BENIGN"": 158}"
+42,0,PortScan,ros,29,5326,2,674,"{""BENIGN"": 662, ""DoS"": 7, ""DDoS"": 4, ""Web Attack"": 1}"
+42,0,Web Attack,ros,29,363,0,66,"{""BENIGN"": 56, ""DoS"": 6, ""PortScan"": 4}"
+42,0,Infiltration,ros,29,4,0,3,"{""BENIGN"": 3}"
+42,0,DoS,base,29,4939,1,1061,"{""BENIGN"": 923, ""PortScan"": 126, ""Web Attack"": 9, ""DDoS"": 3}"
+42,0,DoS,smote,29,5181,0,819,"{""BENIGN"": 683, ""PortScan"": 113, ""Web Attack"": 19, ""DDoS"": 4}"
+42,0,DoS,ros,29,5138,1,862,"{""BENIGN"": 764, ""PortScan"": 80, ""Web Attack"": 14, ""DDoS"": 4}"
+42,0,DDoS,base,29,5895,0,105,"{""BENIGN"": 103, ""DoS"": 2}"
+42,0,DDoS,smote,29,5958,0,42,"{""BENIGN"": 38, ""DoS"": 4}"
+42,0,DDoS,ros,29,5942,0,58,"{""BENIGN"": 57, ""DoS"": 1}"
+42,1,Botnet,ros,29,229,1,161,"{""BENIGN"": 161}"
+42,1,PortScan,ros,29,4553,1,1447,"{""BENIGN"": 1436, ""DoS"": 6, ""DDoS"": 4, ""Web Attack"": 1}"
+42,1,Web Attack,ros,29,328,0,101,"{""BENIGN"": 96, ""DoS"": 4, ""PortScan"": 1}"
+42,1,Infiltration,ros,29,6,0,1,"{""BENIGN"": 1}"
+42,1,DoS,base,29,4959,1,1041,"{""BENIGN"": 920, ""PortScan"": 115, ""DDoS"": 4, ""Web Attack"": 2}"
+42,1,DoS,smote,29,4955,0,1045,"{""BENIGN"": 795, ""PortScan"": 226, ""Web Attack"": 19, ""DDoS"": 5}"
+42,1,DoS,ros,29,5098,2,902,"{""BENIGN"": 726, ""PortScan"": 150, ""Web Attack"": 19, ""DDoS"": 7}"
+42,1,DDoS,base,29,5891,0,109,"{""BENIGN"": 107, ""DoS"": 2}"
+42,1,DDoS,smote,29,5921,0,79,"{""BENIGN"": 54, ""PortScan"": 23, ""DoS"": 2}"
+42,1,DDoS,ros,29,5921,0,79,"{""PortScan"": 62, ""BENIGN"": 15, ""DoS"": 2}"
+42,2,Botnet,ros,29,199,0,191,"{""BENIGN"": 191}"
+42,2,PortScan,ros,29,4801,0,1199,"{""BENIGN"": 1192, ""DDoS"": 3, ""Web Attack"": 2, ""DoS"": 2}"
+42,2,Web Attack,ros,29,355,0,73,"{""BENIGN"": 66, ""DoS"": 4, ""PortScan"": 3}"
+42,2,Infiltration,ros,29,6,0,1,"{""BENIGN"": 1}"
+42,2,DoS,base,29,5078,0,922,"{""BENIGN"": 804, ""PortScan"": 103, ""Web Attack"": 10, ""DDoS"": 5}"
+42,2,DoS,smote,29,5094,0,906,"{""BENIGN"": 782, ""PortScan"": 88, ""Web Attack"": 33, ""DDoS"": 3}"
+42,2,DoS,ros,29,5099,0,901,"{""BENIGN"": 842, ""PortScan"": 43, ""Web Attack"": 12, ""DDoS"": 4}"
+42,2,DDoS,base,29,5398,0,602,"{""BENIGN"": 601, ""DoS"": 1}"
+42,2,DDoS,smote,29,5851,0,149,"{""BENIGN"": 128, ""DoS"": 21}"
+42,2,DDoS,ros,29,5858,0,142,"{""BENIGN"": 138, ""DoS"": 4}"
+42,3,Botnet,ros,29,236,2,153,"{""BENIGN"": 153}"
+42,3,PortScan,ros,29,5258,3,742,"{""BENIGN"": 726, ""DDoS"": 10, ""DoS"": 6}"
+42,3,Web Attack,ros,29,315,0,113,"{""BENIGN"": 101, ""DoS"": 7, ""PortScan"": 5}"
+42,3,Infiltration,ros,28,7,0,1,"{""BENIGN"": 1}"
+42,3,DoS,base,29,5052,1,948,"{""BENIGN"": 810, ""PortScan"": 113, ""Web Attack"": 16, ""DDoS"": 9}"
+42,3,DoS,smote,29,5012,0,988,"{""BENIGN"": 837, ""PortScan"": 89, ""Web Attack"": 53, ""DDoS"": 9}"
+42,3,DoS,ros,29,5095,0,905,"{""BENIGN"": 789, ""PortScan"": 82, ""Web Attack"": 26, ""DDoS"": 8}"
+42,3,DDoS,base,29,5982,0,18,"{""BENIGN"": 17, ""DoS"": 1}"
+42,3,DDoS,smote,29,5909,0,91,"{""BENIGN"": 55, ""PortScan"": 35, ""DoS"": 1}"
+42,3,DDoS,ros,29,5910,0,90,"{""PortScan"": 74, ""BENIGN"": 15, ""DoS"": 1}"
+42,4,Botnet,ros,29,177,1,212,"{""BENIGN"": 212}"
+42,4,PortScan,ros,29,4947,1,1053,"{""BENIGN"": 1034, ""DDoS"": 9, ""Web Attack"": 8, ""DoS"": 2}"
+42,4,Web Attack,ros,29,359,2,70,"{""BENIGN"": 68, ""PortScan"": 2}"
+42,4,Infiltration,ros,29,5,0,2,"{""BENIGN"": 2}"
+42,4,DoS,base,29,4888,0,1112,"{""BENIGN"": 1019, ""PortScan"": 65, ""Web Attack"": 27, ""DDoS"": 1}"
+42,4,DoS,smote,29,5131,0,869,"{""BENIGN"": 762, ""PortScan"": 68, ""Web Attack"": 38, ""DDoS"": 1}"
+42,4,DoS,ros,29,4995,0,1005,"{""BENIGN"": 920, ""PortScan"": 68, ""Web Attack"": 16, ""DDoS"": 1}"
+42,4,DDoS,base,29,5732,0,268,"{""BENIGN"": 266, ""DoS"": 2}"
+42,4,DDoS,smote,29,5875,0,125,"{""DoS"": 85, ""BENIGN"": 40}"
+42,4,DDoS,ros,29,5850,0,150,"{""BENIGN"": 103, ""DoS"": 47}"
+43,0,Botnet,ros,29,206,3,184,"{""BENIGN"": 184}"
+43,0,PortScan,ros,29,5011,2,989,"{""BENIGN"": 980, ""DoS"": 4, ""DDoS"": 3, ""Web Attack"": 2}"
+43,0,Web Attack,ros,29,372,1,57,"{""BENIGN"": 51, ""DoS"": 3, ""PortScan"": 3}"
+43,0,Infiltration,ros,29,6,0,1,"{""BENIGN"": 1}"
+43,0,DoS,base,29,4860,0,1140,"{""BENIGN"": 1000, ""PortScan"": 128, ""DDoS"": 7, ""Web Attack"": 5}"
+43,0,DoS,smote,29,5011,0,989,"{""BENIGN"": 858, ""PortScan"": 95, ""Web Attack"": 30, ""DDoS"": 6}"
+43,0,DoS,ros,29,4794,0,1206,"{""BENIGN"": 1088, ""PortScan"": 99, ""Web Attack"": 13, ""DDoS"": 6}"
+43,0,DDoS,base,29,5884,0,116,"{""BENIGN"": 116}"
+43,0,DDoS,smote,29,5914,0,86,"{""PortScan"": 61, ""BENIGN"": 25}"
+43,0,DDoS,ros,29,5920,0,80,"{""PortScan"": 59, ""BENIGN"": 20, ""DoS"": 1}"
+43,1,Botnet,ros,29,196,0,194,"{""BENIGN"": 194}"
+43,1,PortScan,ros,29,4913,3,1087,"{""BENIGN"": 1068, ""Web Attack"": 13, ""DoS"": 4, ""DDoS"": 2}"
+43,1,Web Attack,ros,29,320,0,109,"{""BENIGN"": 100, ""PortScan"": 5, ""DoS"": 4}"
+43,1,Infiltration,ros,29,3,0,4,"{""BENIGN"": 4}"
+43,1,DoS,base,29,4889,0,1111,"{""BENIGN"": 1006, ""PortScan"": 93, ""Web Attack"": 8, ""DDoS"": 4}"
+43,1,DoS,smote,29,4983,0,1017,"{""BENIGN"": 924, ""PortScan"": 62, ""Web Attack"": 29, ""DDoS"": 2}"
+43,1,DoS,ros,29,4982,0,1018,"{""BENIGN"": 930, ""PortScan"": 74, ""Web Attack"": 11, ""DDoS"": 3}"
+43,1,DDoS,base,29,5970,0,30,"{""BENIGN"": 28, ""DoS"": 2}"
+43,1,DDoS,smote,29,5908,0,92,"{""PortScan"": 74, ""BENIGN"": 15, ""DoS"": 3}"
+43,1,DDoS,ros,29,5910,0,90,"{""PortScan"": 73, ""BENIGN"": 15, ""DoS"": 2}"
+43,2,Botnet,ros,29,184,2,206,"{""BENIGN"": 206}"
+43,2,PortScan,ros,29,4711,1,1289,"{""BENIGN"": 1274, ""DoS"": 7, ""DDoS"": 5, ""Web Attack"": 3}"
+43,2,Web Attack,ros,29,374,0,54,"{""BENIGN"": 53, ""DoS"": 1}"
+43,2,Infiltration,ros,29,5,0,2,"{""BENIGN"": 2}"
+43,2,DoS,base,29,4923,0,1077,"{""BENIGN"": 969, ""PortScan"": 96, ""DDoS"": 8, ""Web Attack"": 4}"
+43,2,DoS,smote,29,4985,1,1015,"{""BENIGN"": 914, ""PortScan"": 66, ""Web Attack"": 29, ""DDoS"": 6}"
+43,2,DoS,ros,29,5058,1,942,"{""BENIGN"": 824, ""PortScan"": 103, ""Web Attack"": 9, ""DDoS"": 6}"
+43,2,DDoS,base,29,5687,0,313,"{""BENIGN"": 311, ""DoS"": 2}"
+43,2,DDoS,smote,29,5768,0,232,"{""BENIGN"": 167, ""PortScan"": 63, ""DoS"": 2}"
+43,2,DDoS,ros,29,5756,0,244,"{""BENIGN"": 179, ""PortScan"": 63, ""DoS"": 2}"
+43,3,Botnet,ros,29,215,1,174,"{""BENIGN"": 174}"
+43,3,PortScan,ros,29,5102,1,898,"{""BENIGN"": 879, ""DDoS"": 14, ""DoS"": 5}"
+43,3,Web Attack,ros,29,353,0,75,"{""BENIGN"": 63, ""PortScan"": 7, ""DoS"": 5}"
+43,3,Infiltration,ros,28,6,0,2,"{""BENIGN"": 2}"
+43,3,DoS,base,29,4974,0,1026,"{""BENIGN"": 920, ""PortScan"": 98, ""Web Attack"": 5, ""DDoS"": 3}"
+43,3,DoS,smote,29,4910,0,1090,"{""BENIGN"": 938, ""Web Attack"": 79, ""PortScan"": 68, ""DDoS"": 5}"
+43,3,DoS,ros,29,5074,0,926,"{""BENIGN"": 785, ""PortScan"": 89, ""Web Attack"": 48, ""DDoS"": 4}"
+43,3,DDoS,base,29,5894,0,106,"{""BENIGN"": 103, ""DoS"": 3}"
+43,3,DDoS,smote,29,5984,0,16,"{""BENIGN"": 11, ""PortScan"": 3, ""DoS"": 2}"
+43,3,DDoS,ros,29,5982,1,18,"{""BENIGN"": 14, ""PortScan"": 2, ""DoS"": 2}"
+43,4,Botnet,ros,29,208,2,181,"{""BENIGN"": 181}"
+43,4,PortScan,ros,29,5381,3,619,"{""BENIGN"": 610, ""DDoS"": 7, ""DoS"": 2}"
+43,4,Web Attack,ros,29,346,0,83,"{""BENIGN"": 70, ""PortScan"": 7, ""DoS"": 6}"
+43,4,Infiltration,ros,29,6,0,1,"{""BENIGN"": 1}"
+43,4,DoS,base,29,4911,1,1089,"{""BENIGN"": 999, ""PortScan"": 76, ""Web Attack"": 11, ""DDoS"": 3}"
+43,4,DoS,smote,29,5074,0,926,"{""BENIGN"": 809, ""PortScan"": 73, ""Web Attack"": 37, ""DDoS"": 7}"
+43,4,DoS,ros,29,4969,1,1031,"{""BENIGN"": 940, ""PortScan"": 77, ""Web Attack"": 11, ""DDoS"": 3}"
+43,4,DDoS,base,29,5987,0,13,"{""BENIGN"": 13}"
+43,4,DDoS,smote,29,5991,0,9,"{""BENIGN"": 9}"
+43,4,DDoS,ros,29,5989,0,11,"{""BENIGN"": 11}"
+44,0,Botnet,ros,29,198,1,192,"{""BENIGN"": 192}"
+44,0,PortScan,ros,29,4755,0,1245,"{""BENIGN"": 1220, ""Web Attack"": 12, ""DDoS"": 10, ""DoS"": 3}"
+44,0,Web Attack,ros,29,345,0,84,"{""BENIGN"": 78, ""DoS"": 5, ""PortScan"": 1}"
+44,0,Infiltration,ros,29,5,0,2,"{""BENIGN"": 2}"
+44,0,DoS,base,29,4462,0,1538,"{""BENIGN"": 1002, ""Web Attack"": 301, ""PortScan"": 231, ""DDoS"": 4}"
+44,0,DoS,smote,29,4529,0,1471,"{""BENIGN"": 1118, ""PortScan"": 298, ""Web Attack"": 50, ""DDoS"": 5}"
+44,0,DoS,ros,29,4410,0,1590,"{""BENIGN"": 1473, ""PortScan"": 100, ""Web Attack"": 14, ""DDoS"": 3}"
+44,0,DDoS,base,29,5723,0,277,"{""BENIGN"": 275, ""DoS"": 2}"
+44,0,DDoS,smote,29,5819,0,181,"{""BENIGN"": 179, ""DoS"": 2}"
+44,0,DDoS,ros,29,5743,0,257,"{""BENIGN"": 255, ""DoS"": 2}"
+44,1,Botnet,ros,29,223,1,167,"{""BENIGN"": 167}"
+44,1,PortScan,ros,29,5421,7,579,"{""BENIGN"": 564, ""DDoS"": 7, ""Web Attack"": 5, ""DoS"": 3}"
+44,1,Web Attack,ros,29,378,0,51,"{""BENIGN"": 40, ""PortScan"": 6, ""DoS"": 5}"
+44,1,Infiltration,ros,29,6,0,1,"{""BENIGN"": 1}"
+44,1,DoS,base,29,5138,0,862,"{""BENIGN"": 766, ""PortScan"": 85, ""Web Attack"": 7, ""DDoS"": 4}"
+44,1,DoS,smote,29,5217,0,783,"{""BENIGN"": 676, ""PortScan"": 79, ""Web Attack"": 24, ""DDoS"": 4}"
+44,1,DoS,ros,29,5186,0,814,"{""BENIGN"": 730, ""PortScan"": 74, ""Web Attack"": 7, ""DDoS"": 3}"
+44,1,DDoS,base,29,5935,0,65,"{""BENIGN"": 62, ""DoS"": 3}"
+44,1,DDoS,smote,29,5890,0,110,"{""PortScan"": 49, ""BENIGN"": 48, ""DoS"": 13}"
+44,1,DDoS,ros,29,5868,0,132,"{""PortScan"": 56, ""BENIGN"": 50, ""DoS"": 26}"
+44,2,Botnet,ros,29,202,2,188,"{""BENIGN"": 188}"
+44,2,PortScan,ros,29,4960,2,1040,"{""BENIGN"": 1028, ""DoS"": 7, ""DDoS"": 3, ""Web Attack"": 2}"
+44,2,Web Attack,ros,29,370,0,58,"{""BENIGN"": 43, ""PortScan"": 8, ""DoS"": 7}"
+44,2,Infiltration,ros,29,3,0,4,"{""BENIGN"": 4}"
+44,2,DoS,base,29,4932,0,1068,"{""BENIGN"": 986, ""PortScan"": 73, ""Web Attack"": 6, ""DDoS"": 3}"
+44,2,DoS,smote,29,5241,0,759,"{""BENIGN"": 681, ""PortScan"": 51, ""Web Attack"": 24, ""DDoS"": 3}"
+44,2,DoS,ros,29,5195,1,805,"{""BENIGN"": 708, ""PortScan"": 86, ""Web Attack"": 8, ""DDoS"": 3}"
+44,2,DDoS,base,29,5782,0,218,"{""BENIGN"": 216, ""DoS"": 2}"
+44,2,DDoS,smote,29,5904,0,96,"{""PortScan"": 52, ""BENIGN"": 42, ""DoS"": 2}"
+44,2,DDoS,ros,29,5905,0,95,"{""BENIGN"": 53, ""PortScan"": 35, ""DoS"": 7}"
+44,3,Botnet,ros,29,234,1,155,"{""BENIGN"": 155}"
+44,3,PortScan,ros,29,4385,0,1615,"{""BENIGN"": 1605, ""DDoS"": 6, ""DoS"": 4}"
+44,3,Web Attack,ros,29,304,0,124,"{""BENIGN"": 110, ""PortScan"": 12, ""DoS"": 2}"
+44,3,Infiltration,ros,28,7,0,1,"{""BENIGN"": 1}"
+44,3,DoS,base,29,4768,0,1232,"{""BENIGN"": 1147, ""PortScan"": 67, ""Web Attack"": 13, ""DDoS"": 5}"
+44,3,DoS,smote,29,4929,0,1071,"{""BENIGN"": 978, ""PortScan"": 68, ""Web Attack"": 19, ""DDoS"": 6}"
+44,3,DoS,ros,29,4936,0,1064,"{""BENIGN"": 993, ""PortScan"": 56, ""Web Attack"": 11, ""DDoS"": 4}"
+44,3,DDoS,base,29,5902,0,98,"{""BENIGN"": 98}"
+44,3,DDoS,smote,29,5861,0,139,"{""BENIGN"": 113, ""DoS"": 26}"
+44,3,DDoS,ros,29,5891,0,109,"{""BENIGN"": 76, ""PortScan"": 33}"
+44,4,Botnet,ros,29,180,3,209,"{""BENIGN"": 209}"
+44,4,PortScan,ros,29,4758,1,1242,"{""BENIGN"": 1229, ""DDoS"": 6, ""DoS"": 4, ""Web Attack"": 3}"
+44,4,Web Attack,ros,29,358,0,71,"{""BENIGN"": 65, ""DoS"": 4, ""PortScan"": 2}"
+44,4,Infiltration,ros,29,5,0,2,"{""BENIGN"": 2}"
+44,4,DoS,base,29,4966,0,1034,"{""BENIGN"": 948, ""PortScan"": 69, ""Web Attack"": 13, ""DDoS"": 4}"
+44,4,DoS,smote,29,5010,0,990,"{""BENIGN"": 895, ""PortScan"": 61, ""Web Attack"": 30, ""DDoS"": 4}"
+44,4,DoS,ros,29,5019,1,981,"{""BENIGN"": 910, ""PortScan"": 54, ""Web Attack"": 13, ""DDoS"": 4}"
+44,4,DDoS,base,29,5883,0,117,"{""BENIGN"": 116, ""DoS"": 1}"
+44,4,DDoS,smote,29,5935,0,65,"{""BENIGN"": 65}"
+44,4,DDoS,ros,29,5885,0,115,"{""BENIGN"": 115}"

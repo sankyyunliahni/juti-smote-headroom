@@ -1,0 +1,55 @@
+category,model,method,fn_total,fn_benign,to_benign (%),top_other
+Botnet,mlp,base,3622,3518,97.12865819988956,PortScan
+Botnet,mlp,ros,1128,1128,100.0,
+Botnet,mlp,smote,978,977,99.89775051124744,DDoS
+Botnet,rf,base,3235,3235,100.0,
+Botnet,rf,ros,2725,2725,100.0,
+Botnet,rf,smote,1764,1764,100.0,
+Botnet,xgb,base,2090,2090,100.0,
+Botnet,xgb,ros,1261,1261,100.0,
+Botnet,xgb,smote,1024,1024,100.0,
+DDoS,mlp,base,15597,10251,65.72417772648586,DoS
+DDoS,mlp,ros,3819,684,17.91044776119403,DoS
+DDoS,mlp,smote,4256,1140,26.785714285714285,DoS
+DDoS,rf,base,2455,2432,99.06313645621181,DoS
+DDoS,rf,ros,1670,1116,66.82634730538922,PortScan
+DDoS,rf,smote,1512,989,65.41005291005291,DoS
+DDoS,xgb,base,1227,733,59.73920130399348,PortScan
+DDoS,xgb,ros,671,609,90.76005961251863,DoS
+DDoS,xgb,smote,661,632,95.61270801815431,DoS
+DoS,mlp,base,22666,15757,69.51822112415071,DDoS
+DoS,mlp,ros,13004,9367,72.03168255921256,Web Attack
+DoS,mlp,smote,13758,10373,75.39613315888937,PortScan
+DoS,rf,base,16261,14219,87.44234671914397,Web Attack
+DoS,rf,ros,14952,13422,89.76725521669341,PortScan
+DoS,rf,smote,14738,12650,85.83254172886416,PortScan
+DoS,xgb,base,13852,10065,72.6609875830205,PortScan
+DoS,xgb,ros,12460,9089,72.9454253611557,Web Attack
+DoS,xgb,smote,13479,9177,68.08368573336301,PortScan
+Infiltration,mlp,base,36,35,97.22222222222223,DoS
+Infiltration,mlp,ros,37,36,97.29729729729729,DoS
+Infiltration,mlp,smote,35,34,97.14285714285714,Botnet
+Infiltration,rf,base,30,30,100.0,
+Infiltration,rf,ros,28,28,100.0,
+Infiltration,rf,smote,22,22,100.0,
+Infiltration,xgb,base,20,20,100.0,
+Infiltration,xgb,ros,17,17,100.0,
+Infiltration,xgb,smote,15,15,100.0,
+PortScan,mlp,base,52563,51406,97.79883187793695,Botnet
+PortScan,mlp,ros,18501,17874,96.61099400032431,Web Attack
+PortScan,mlp,smote,13240,12714,96.02719033232628,Web Attack
+PortScan,rf,base,18113,17950,99.1000938552421,DDoS
+PortScan,rf,ros,15718,15507,98.6575900241761,DDoS
+PortScan,rf,smote,8153,7931,97.27707592297314,Web Attack
+PortScan,xgb,base,21948,21563,98.24585383634044,Web Attack
+PortScan,xgb,ros,13392,12989,96.99074074074075,Web Attack
+PortScan,xgb,smote,7556,7159,94.74589730015882,Web Attack
+Web Attack,mlp,base,6296,6178,98.12579415501907,PortScan
+Web Attack,mlp,ros,510,394,77.25490196078431,PortScan
+Web Attack,mlp,smote,505,391,77.42574257425743,PortScan
+Web Attack,rf,base,885,787,88.92655367231639,DoS
+Web Attack,rf,ros,1189,1060,89.15054667788057,PortScan
+Web Attack,rf,smote,943,858,90.98621420996818,PortScan
+Web Attack,xgb,base,850,408,48.0,DoS
+Web Attack,xgb,ros,772,430,55.69948186528497,DoS
+Web Attack,xgb,smote,702,356,50.712250712250714,DoS
