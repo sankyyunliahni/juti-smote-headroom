@@ -3,7 +3,8 @@
 Notebooks, run configurations, and result files for the paper submitted to *JUTI: Jurnal Ilmiah
 Teknologi Informasi*.
 
-Every table in the paper is computed from a file in `results/`, not transcribed by hand. The map
+Every table of measured results is computed from a file in `results/`, not transcribed by hand;
+Table 1 is the only exception, being a survey of prior work rather than an experiment. The map
 below gives the file behind each one, so any number in the paper can be checked without repeating
 the computation.
 
@@ -26,7 +27,8 @@ the same cell and it skips the work already done.
 
 | Notebook | What it produces | Approximate time |
 |---|---|---|
-| `JUTI_rerun_v3.ipynb` | Base-model selection, the controlled experiment at 29 samples across three classifier families, subset geometry, feature-space complexity, error destinations | ~11 h |
+| `JUTI_rerun_v2_unified.ipynb` | Base-model selection across eight algorithms, the twelve imbalance-handling configurations on the 36-record category, Infiltration recall under the 80:20 split, and the CSE-CIC-IDS2018 learning curve | ~14 h |
+| `JUTI_rerun_v3.ipynb` | The controlled experiment at 29 samples across three classifier families, subset geometry, feature-space complexity, error destinations | ~11 h |
 | `JUTI_rerun_v4_cse2018.ipynb` | CSE-CIC-IDS2018: controlled experiment, geometry, Infiltration learning curve | ~6 h |
 | `JUTI_ablasi_v5.ipynb` | Sample-size ablation at 29/50/100/500 on nested subsets; SMOTE parameter sensitivity | ~8 h + 2.6 h |
 | `JUTI_headroom_v6.ipynb` | Capacity ablation with the subsets held fixed; geometry recomputed at each subset size | ~2.5 h + 50 min |
@@ -38,6 +40,7 @@ cleanly before the session is cut off.
 
 | Paper | Source file |
 |---|---|
+| Table 2, Table 17 | `v2_table1_base_models.csv`, `v2_table6_split8020_recall.csv` |
 | Table 3, Table 4, Fig. 2 | `secC_controlled_v2.csv`, `secC_subsample_shape.csv` |
 | Table 5 | `k1.csv`, `k2.csv` |
 | Table 6, Table 7 | `secC_subsample_shape.csv`, `secJ_synthetic_destination.csv` |
@@ -46,8 +49,9 @@ cleanly before the session is cut off.
 | Table 10 | `secX_capacity.csv`, `v6_capacity_summary.csv` |
 | Table 11 | `secT_ablation.csv`, `v5_ablation_summary.csv` |
 | Table 12 | `secV_smote_sensitivity.csv`, `v5_sensitivity_detail.csv` |
-| Table 13 | `secI_complexity.csv` |
+| Table 13 | `secI_complexity.csv`, `k4.csv` |
 | Table 14 | `secH_error_destination.csv`, `secH_new.csv` |
+| Table 15 | `v2_table4_imbalance_methods.csv` |
 | Table 16, Fig. 3 | `secE_cse2018_curve.csv` |
 | Section 4.7 geometry by subset size | `secY_geometry_by_size.csv`, `v6_grid_summary.csv` |
 | CSE-CIC-IDS2018 controlled experiment | `secP_controlled_cse2018.csv`, `secQ_*.csv`, `v4_pooled_summary.csv` |

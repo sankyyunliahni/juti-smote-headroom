@@ -1,0 +1,9 @@
+algorithm,accuracy,macro_f1,train_time_s
+XGBoost,99.9,98.65,34.57
+Gradient Boosting,99.81,97.61,721.24
+Random Forest,99.81,97.17,20.38
+Decision Tree,99.76,95.83,2.56
+Extra Trees,99.76,96.94,6.59
+K-Nearest Neighbors,99.22,92.56,0.01
+Linear SVC,96.64,79.24,555.11
+Naive Bayes,90.34,71.81,0.12

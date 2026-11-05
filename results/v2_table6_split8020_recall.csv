@@ -1,0 +1,9 @@
+algorithm,inf_correct,inf_test,inf_fp,inf_fn_to_benign,recall_pct,wilson95_pct
+XGBoost,6,7,0,1,85.7,48.7-97.4
+Gradient Boosting,6,7,1,1,85.7,48.7-97.4
+Decision Tree,6,7,3,0,85.7,48.7-97.4
+Naive Bayes,6,7,42,1,85.7,48.7-97.4
+Random Forest,5,7,0,2,71.4,35.9-91.8
+Extra Trees,5,7,0,2,71.4,35.9-91.8
+K-Nearest Neighbors,5,7,5,2,71.4,35.9-91.8
+Linear SVC,2,7,4,5,28.6,8.2-64.1
